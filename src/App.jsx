@@ -19,13 +19,23 @@ function App() {
       item.quantity = 1 // con este se está agregando una propiedad llamada quantity al item, el cual representa la guitarra después de haber sido agregada.
       setCart( [...cart, item])
     }
-    
+
+        
+  }
+
+  function removeFromCart(id){
+    //const prevCart = cart.filter((guitar) => guitar.id !== id)
+    //setCart(prevCart)
+
+    setCart(prevCart => prevCart.filter(guitar => guitar.id !== id));
   }
 
   return (
     <>
     <Header 
       cart={cart}
+      removeFromCart={removeFromCart}
+      
     />
    
     <main className="container-xl mt-5">
