@@ -1,8 +1,20 @@
-# React + Vite
+# Tienda de Guitarras, con carrito de compras.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/linamaria126/guitarStore/assets/66230572/aa64e064-63b0-43fd-a370-aa605ea4d8d5)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+#Tecnologías empleadas:
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+- Vite
+- React.js
+
+
+#Proyecto desplegado:
+
+https://creative-tarsier-bb2d00.netlify.app/
