@@ -1,9 +1,7 @@
-import { useMemo } from "react";
+import useCart from '../hooks/useCart.js';
 
-function Header({ cart,  removeFromCart,  decreaseQuantity, increaseQuantity, cleanCart }) {
-  //State Derivado
-  const isEmpty = useMemo ( () => cart.length === 0, [cart] );
-  const totalPrice = useMemo( () => cart.reduce((totalValue, value) => totalValue + (value.quantity * value.price), 0), [cart] )
+function Header({ cart,  removeFromCart,  decreaseQuantity, increaseQuantity, cleanCart, isEmpty, totalPrice }) {
+    
 
   return (
     <header className="py-5 header">
